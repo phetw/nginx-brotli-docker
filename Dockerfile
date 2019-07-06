@@ -1,6 +1,7 @@
-FROM nginx:1.17.1-alpine
+# FROM nginx:1.17.1-alpine
+FROM fholzer/nginx-brotli
 
-COPY ./build /var/www
+COPY ./build /usr/share/nginx/html
 COPY nginx.conf /etc/nginx/nginx.conf
 
 EXPOSE 80

@@ -9,3 +9,7 @@ docker build --rm -f "Dockerfile" -t nginx-brotli-docker:latest .
 ## Run
 
 docker run --rm -d -p 443:443/tcp -p 80:80/tcp nginx-brotli-docker:latest
+
+## Result
+
+localhost:80

@@ -1,6 +1,6 @@
 # nginx + brotli + docker
 
-Dockerizing a SPA web application with nginx and Google's brotli compression
+Dockerizing a SPA web application with nginx and Google's brotli compression with gzip fallback for brotli incompatible browsers.
 
 ## Build
 
